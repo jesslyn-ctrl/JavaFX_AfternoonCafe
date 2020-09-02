@@ -1,0 +1,85 @@
+#FirstPage{
+    -fx-background-image: url("/Images/Bg1.png");
+    -fx-background-size: stretch;
+    -fx-background-repeat: no-repeat;
+}
+
+#Start:hover{
+    -fx-cursor: hand;
+}
+
+#sptitle{
+    -fx-background-image: url("/Images/2Top.png");
+    -fx-text-fill: white;
+    -fx-border-width: 0 0 0 0;
+    -fx-border-color: white;
+}
+#scp{
+    -fx-background-color: white;
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient(whitesmoke, darkseagreen);
+    -fx-text-fill: brown;
+    -fx-cursor: hand;
+}
+
+#tptitle{
+    -fx-background-image: url("/Images/3Top.png");
+    -fx-text-fill: black;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 0 0;
+}
+
+#hotbox{
+    -fx-border-color: transparent;
+}
+
+#hotlbl{
+    -fx-font-size: 18;
+    -fx-font-family: "Arial Rounded MT Bold";
+}
+
+#spmenu{
+    -fx-border-insets: 15 0 0 15;
+}
+
+#spmenu:hover{
+    -fx-background-color: linear-gradient(whitesmoke, cornsilk);
+}
+
+#qty{
+    -fx-background-color: transparent;
+    -fx-border-radius: 10 10 10 10;
+}
+
+#cartlbl{
+    -fx-font-size: 25;
+    -fx-font-weight: BOLD;
+    -fx-font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+}
+
+#hboxBot{
+    -fx-border-color: transparent;
+    -fx-border-insets: 15 0 5 15;
+}
+
+#Barbtn{
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-font-size: 14;
+    -fx-border-color: white;
+}
+
+#mylist{
+    -fx-font-weight: BOLD;
+    -fx-font-family: Arial;
+    -fx-font-size: 16;
+}
+
+#finalize{
+    -fx-background-color: darkseagreen;
+    -fx-border-color: azure;
+    -fx-text-fill: white;
+    -fx-border-radius: 5 5 5 5;
+}
+
